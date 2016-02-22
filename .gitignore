@@ -1,0 +1,4 @@
+/.gradle
+/myapp/build
+/myapp/.asscache
+/myplugin/build

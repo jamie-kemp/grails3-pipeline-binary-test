@@ -1,0 +1,3 @@
+class PluginTest {
+	def bob
+}
