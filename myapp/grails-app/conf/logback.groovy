@@ -10,6 +10,7 @@ appender('STDOUT', ConsoleAppender) {
 
 root(DEBUG, ['STDOUT'])
 logger("org.springsource.loaded",TRACE)
+logger("asset.pipeline", DEBUG)
 
 def targetDir = BuildSettings.TARGET_DIR
 if (Environment.isDevelopmentMode() && targetDir) {
